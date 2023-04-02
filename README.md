@@ -16,11 +16,21 @@ Stable Diffusion is a latent text-to-image diffusion model. Trained on LAION-5B 
 #### 2.1) Stable Diffusion V1
 
 Uses <b>OpenAI's CLIP</b> as Text encoder 
+No Negative Prompts
 ![image](https://user-images.githubusercontent.com/95982431/229340383-9e57b323-0b23-462a-97c4-f8b531c88350.png)
 
 #### 2.2) Stable Diffusion V2
 
 Uses <b>OpenCLIP</b> as Text Encoder
+Negative Prompts are included
 ![image](https://user-images.githubusercontent.com/95982431/229340373-a22f4b96-529e-44e0-bd59-64bbf8655bc1.png)
 
 
+| Size  | Parameters |
+| ------------- | ------------- |
+| Tiny  | 39 M  |
+| Base  |  74 M |
+| Small |  244 M |
+| Medium | 769 M |
+| Large | 1550 M | 
+| Large V2 | 1650 M |
